@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Интернет-сервис hype-shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style_buttons.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+	
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i">
+	<script src="https://kit.fontawesome.com/b8991598b2.js"></script>
+	
+</head>
+
+
+<body>
+	<script src="index.js"></script>
+<a class="back_to_top" title="Наверх" ></a>
+
+	<header>
+		<div class ="header_logo" >
+			<img  class="logo" src="img/logo_fox1.jpg">
+		</div>
+
+		<nav>
+			<div class = "topnav" id="myTopnav">
+				<a href="index.html">Главная</a>
+				<a href="#about_company">О нас</a>
+				<a href="#services_company">Каталог</a>
+				<a href="#work_company">PORTFOLIO</a>
+				<a href="#contact_company">Контакты</a>
+				<div class="dropdown">
+				  <a class="dropbtn">Личный кабинет</a>
+					  <div class="dropdown-content">
+					    <a href="sign_up.php">Войти</a>
+					    <a href="index (2).php">Зарегистрироваться</a>
+					  </div>
+				</div>
+				
+
+				<a href="#" id="menu" class="icon">&#9776;</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<!--<div class="main_found">
+			<!-- <form action="/search/" target="_blank">
+  				<input type="hidden" name="searchid" value="808327">
+  				<input type="search" name="text" required placeholder="Поиск по сайту" style="
+  				color: white;
+				padding: 5px 2px 5px 25px;
+				background: url('http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s25/search.png') no-repeat scroll 0 50%;">
+			</form> -->
+		<div class="search_block">
+			<div class="search-box">
+			
+					<input class ="search-txt" type="text" align="center" name="" placeholder="Поиск по сайту">
+					<a class="search-btn" href="#">
+						<i class="fas fa-search"></i>
+					</a>
+
+			</div>
+			
+		</div>
+
+		<div class ="main_welcome">
+
+			
+			
+			<h1>Добро пожаловать на мой интернет-сервис <span class="mycompany">Hype-store!</span></h1>
+
+			<p>Вы можете найти необходимый вам товар введя название в <span class="text_weight"> строку поиска</span> или 
+			перейдя в <span class="text_weight">каталог</span></p>
+
+				<div class="button_catalog">
+					<a href="store.js" class="button28">Каталог</a>
+				</div>
+		</div>
+		
+		<div class="space_about">
+			<h2 id="about_company"></h2>
+		</div>
+<div class ="wrapper">
+
+	<div class = "main_about">
+		<div class = "about_left">
+			<img  class="mw-100" src="img/mac.png">
+		</div>
+		
+		<div class = "about_right">
+				<h1 ><span class="about_us_text">SOME WORDS</span> ABOUT US</h1>
+				<p>	Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .</p>
+				<ul>	
+					<li><b>Mission</b> - We deliver uniqueness and quality	</li>
+
+					<li><b>Skills</b> - Delivering fast and excellent results</li>
+					<li><b>Clients</b> - Satisfied clients thanks to our experience</li>
+				</ul>
+		</div>
+	</div>
+</div>
+	<div class="main_team">
+		<div class="wrapper">
+		<h1>OUR TEAM</h1>
+		<div class="line"></div>
+		<div class="team_cards">
+			<div class="card">
+				<div class="photo"></div>
+				<h4 class= "name">Nasstasia Yushka</h4>
+				<p class="position">Designer</p>
+				<p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
+			</div>
+				
+				<div class="card">
+					<div class="photo"></div>
+					<h4 class= "name">Igor Gavrelik</h4>
+					<p class="position">Manager</p>
+					<p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
+				</div>
+
+			<div class="card">
+				<div class="photo"></div>
+				<h4 class= "name">Alex Peretyatko</h4>
+				<p class="position">Copywriter</p>
+				<p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
+			</div>
+			
+			<div class="card">
+				<div class="photo"></div>
+				<h4 class= "name">Vlad Ivanov</h4>
+				<p class="position">SEO</p>
+				<p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
+			</div>
+		</div>		
+	</div>
+	</div>
+
+
+		<div class="space_services">
+				<h2 id="services_company"></h2>
+		</div>
+
+	<div class="main_services">
+		<div class="wrapper">
+			<h1>OUR SERVICES</h1>
+			<div class="line"></div>
+			<p><i>Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .</i></p>
+
+			<div class="services_cards">
+				<div class="services_card">
+					<img src="img/Form1.png" alt="mobile apps">
+					<h4>WEB-DESIGN</h4>
+					<p>Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .</p>
+				</div>
+
+				<div class="services_card">
+					<img src="img/Form11.png" alt="mobile apps">
+					<h4>MOBILE APPS</h4>
+					<p>Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .</p>
+				</div>
+
+				<div class="services_card">
+					<img src="img/Form111.png" alt="mobile apps">
+					<h4>PHOTOGRAPHY</h4>
+					<p>Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .</p>
+				</div>
+
+				<div class="services_card">
+					<img src="img/Form1111.png" alt="mobile apps">
+					<h4>MARKETING</h4>
+					<p>Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus .</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+ 	
+	<div class="main_clients">
+		<div class="wrapper">		
+			<h1>SOME OF OUR CLIENTS</h1>
+		<div class="line"></div>
+
+		<div class="clients">
+			<img src="" alt="">
+			<img src="img/Layer 65.png" alt="">
+			<img src="img/Layer 67.png" alt="">
+			<img src="img/Layer 68.png" alt="">
+			<img src="img/Layer 69.png" alt="">
+		</div></div>
+
+	</div>
+
+			<div class="space_work">
+				<h2 id="work_company"></h2>
+			</div>
+
+<div class="wrapper">
+	<div class="main_work">
+		<h1>TAKE A LOOK AT OUR WORK</h1>
+		<div class="line"></div>
+		<p><i>Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus.Lorem ipsum dolor sit amet, comsectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores menus ad eaque maxime possimus. </i></p>
+		<div class="gallery">
+			<div class="line1">
+				<img src="img/work1.png" alt="">
+				<img src="img/work1.png" alt="">
+				<img src="img/work1.png" alt="">
+				<img src="img/work1.png" alt="">
+				
+			</div>
+
+			<div class="line2">
+				<img src="img/work2.png" alt="">
+				<img src="img/work2.png" alt="">
+				<img src="img/work2.png" alt="">
+				<img src="img/work2.png" alt="">
+		
+				
+			</div>
+
+			<div class="line3">
+				<img src="img/work3.png" alt="">
+				<img src="img/work3.png" alt="">
+				<img src="img/work3.png" alt="">
+				<img src="img/work3.png" alt="">
+		
+				
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+
+
+
+			<div class="space_testimonials">
+				<h2 id="testimonials_company"></h2>
+			</div>
+
+<div class="main_testimonials">
+	<div class="wrapper">
+		<h1>OUR CLIENTS TESTIMONIALS</h1>
+		<div class="line"></div>
+		<p class="testimonial">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+		<p>Dear Martin, CEO Acme Inc.</p>
+	</div>
+
+</div>
+
+
+			<div class="space_contact">
+				<h2 id="contact_company"></h2>
+			</div>
+
+<div class="signup">
+			 <div class="row">
+				<div class="col-md-offset-3 col-md-6">
+
+				<div class="tab" role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">sign in</a></li>
+				<li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">sign up</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content tabs">
+				<div role="tabpanel" class="tab-pane fade in active" id="Section1">
+				<form class="form-horizontal">
+				<div class="form-group">
+				<label for="exampleInputEmail1">username</label>
+				<input type="email" class="form-control" id="exampleInputEmail1">
+				</div>
+				<div class="form-group">
+				<label for="exampleInputPassword1">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword1">
+				</div>
+				<div class="form-group">
+				<div class="main-checkbox">
+				<input value="None" id="checkbox1" name="check" type="checkbox">
+				<label for="checkbox1"></label>
+				</div>
+				<span class="text">Keep me Signed in</span>
+				</div>
+				<div class="form-group">
+				<button type="submit" class="btn btn-sm animated-button one">Sign in</button>
+				</div>
+				<div class="form-group forgot-pass">
+				<button type="submit" class="btn btn-sm animated-button one">forgot password</button>
+				</div>
+				</form>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="Section2">
+				<form class="form-horizontal">
+				<div class="form-group">
+				<label for="exampleInputEmail1">First Name</label>
+				<input type="text" class="form-control" id="exampleInputEmail1">
+				</div>
+				<div class="form-group">
+				<label for="exampleInputEmail1">Last Name</label>
+				<input type="text" class="form-control" id="exampleInputEmail1">
+				</div>
+				<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1">
+				</div>
+				<div class="form-group">
+				<label for="exampleInputPassword1">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword1">
+				</div>
+				<div class="form-group">
+				<button type="submit" class="btn btn-default">Sign up</button>
+				</div>
+				</form>
+				</div>
+				</div>
+
+
+		<div class="col-md-3"> <a href="#" class="btn btn-sm animated-button one">Войти</a> </div>
+		<div class="col-md-4"> <a href="#" class="btn btn-sm animated-button two">Регистрация</a> </div>
+	</div>
+
+
+<section class="contact_form">
+
+	<div class="contact_wrapper">
+			<h1>CONTACT FORM</h1>
+			<div class="line"></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur. Lorem dolor sit ammet, consectetur adipisicing elit.</p>
+		<form action="#" name="newform" method="post">
+			<div class="form_inputs">
+				<p>Name<span class="red">*</span><input type="text"></p>
+				
+				<p>Email address<span class="red">*</span><input type="text"></p>
+				
+			</div>
+			<p>Message<span class="red">*</span></p>
+			<textarea name="text" ></textarea>
+			<div class="button_block">
+				<input type="submit" value="SEND">
+			</div>
+		</form>
+	</div>
+</section>
+
+
+
+	</main>
+
+	<footer>
+		<div class="social">
+			<a href=""><img src="img/facebook.png" alt=""></a>
+			<a href=""><img src="img/twitter.png" alt=""></a>
+			<a href=""><img src="img/google.png" alt=""></a>
+			<a href=""><img src="img/linkedin.png" alt=""></a>
+			<a href=""><img src="img/dribbble.png" alt=""></a>
+		</div>
+	</footer>
+
+
+	
+
+		<script src="javascript.js"></script>
+		<script src="js_button.js"></script>
+	
+
+
+
+</body>
+</html>
